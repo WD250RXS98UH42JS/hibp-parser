@@ -12,7 +12,7 @@ If you want to optimize this code for your needs, essential things you should ch
 **create_hashes_list()** method takes start_value and end_value variables, iterates over that range and creates list of SHA-1 hashes. It can be easily changed to make hashes list using alphanumeric values stored in list, external file or something else.<br>
 **search_matches_in_db()** method strictly working only with data represents the same as entries of Have I Been Pwned database. It iterates over all entries in DB data, and compares it's value with every item stored in hashes_list. In case of matching, log entry will be created and echoed.
 
-## Processing time
+## Environment preferences
 It's highly recommended to use GCP, AWS or any cloud provider's virtualization features to run this script instead of local running to significally decreasing processing time.
 
 ### Example
